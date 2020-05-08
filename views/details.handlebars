@@ -1,0 +1,9 @@
+<h1>{{user.name}} [{{user.id}}]</h1>
+<ul class="list-group">
+    <li class="list-group-item"><strong>邮箱:</strong>{{user.email}}</li>
+    <li class="list-group-item"><strong>电话:</strong>{{user.phone}}</li>
+</ul>
+<a href="/" class="btn btn-default pull-left">返回</a>
+<form action="/user/delete/{{user.id}}?_method=DELETE" method="POST">
+<input type="submit" class="btn btn-danger pull-right" value="删除">
+</form>

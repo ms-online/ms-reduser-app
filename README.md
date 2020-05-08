@@ -1,1 +1,1 @@
-项目介绍：redis & node.js 实现用户管理应用
+lesson:课程代码
